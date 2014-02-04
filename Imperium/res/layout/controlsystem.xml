@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/tvSystemName"
+                android:text="@string/tvSystemName_DefaultText"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                />
+
+        <TextView
+                android:text="@string/tvSystemStatus_Text"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                />
+
+        <TextView
+                android:id="@+id/tvSystemStatus"
+                android:text="@string/tvSystemStatus_DefaultText"
+                android:background="@color/green"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:orientation="vertical">
+
+        <Button
+                android:text="@string/btnReboot_text"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:onClick="btnReboot_onClick"
+                android:background="@drawable/redbutton"
+                style="@style/ButtonText"
+                android:drawableRight="@drawable/reboot"
+                />
+
+        <Button
+                android:text="@string/btnLaunchApp_text"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:onClick="btnLaunchApplication_onClick"
+                android:background="@drawable/blackbutton"
+                style="@style/ButtonText"
+                android:drawableRight="@drawable/launchapp"
+                />
+
+        <Button
+                android:text="@string/btnGetStats_text"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:onClick="btnRequestStatistics_onClick"
+                android:background="@drawable/blackbutton"
+                style="@style/ButtonText"
+                android:drawableRight="@drawable/stats"
+                />
+
+        <Button
+                android:text="@string/btnDelete_text"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:onClick="btnDeleteSystem_onClick"
+                android:background="@drawable/blackbutton"
+                style="@style/ButtonText"
+                android:drawableRight="@drawable/delete"
+                />
+    </LinearLayout>
+
+</LinearLayout>

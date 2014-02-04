@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Imperium</string>
+    <string name="btnAddNew_text">Add New</string>
+    <string name="etIpAddress_defaultText">192.168.1.1</string>
+    <string name="etPort_defaultText">1234</string>
+    <string name="tvIpLabel_Text">IP Address</string>
+    <string name="tvPortLabel_Text">Port</string>
+    <string name="btnAdd_Text">Add Machine</string>
+    <string name="tvSystemStatus_Text"> Status:</string>
+    <string name="tvSystemStatus_DefaultText">Up</string>
+    <string name="btnReboot_text">Reboot</string>
+    <string name="btnLaunchApp_text">Launch App</string>
+    <string name="btnGetStats_text">Get Stats</string>
+    <string name="btnDelete_text">Delete</string>
+    <string name="etName_defaultText">PC 1</string>
+    <string name="tvNameLabel_Text">Name</string>
+    <string name="tvSystemName_DefaultText">System Name</string>
+    <string name="tvRebootLabel_Text">Rebooting System...</string>
+    <string name="tv_RebootCountLabel_DefaultText">10</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>

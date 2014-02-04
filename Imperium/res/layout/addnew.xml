@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <EditText
+        android:id="@+id/etIpAddress"
+        android:text="@string/etIpAddress_defaultText"
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="3dp"
+        />
+
+    <EditText
+        android:id="@+id/etPort"
+        android:text="@string/etPort_defaultText"
+        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_toRightOf="@id/etIpAddress"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:text="@string/etName_defaultText"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_toRightOf="@id/etPort"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="3dp"
+        />
+
+    <TextView
+        android:id="@+id/tvIpLabel"
+        android:text="@string/tvIpLabel_Text"
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_below="@id/etIpAddress"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPortLabel"
+        android:text="@string/tvPortLabel_Text"
+        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_below="@id/etIpAddress"
+        android:layout_toRightOf="@id/tvIpLabel"
+        />
+
+    <TextView
+        android:id="@+id/tvNameLabel"
+        android:text="@string/tvNameLabel_Text"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/etName"
+        android:layout_toRightOf="@id/etPort"
+        android:layout_marginLeft="8dp"
+        />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:text="@string/btnAdd_Text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnAdd_onClick"
+        android:background="@drawable/blackbutton"
+        style="@style/ButtonText"
+        />
+
+</RelativeLayout>

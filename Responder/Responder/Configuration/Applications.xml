@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Applications>
+  <App Name="Defrag" AppID="0" Command="cmd.exe" Arguments="/C defrag /C /H /V" />
+  <App Name="Windows Update" AppID="1" Command="C:\Windows\system32\wuapp.exe" Arguments="" />
+  <App Name="CCleaner" AppID="2" Command="C:\Program Files\CCleaner\CCleaner.exe" Arguments="/registry" />
+</Applications>
